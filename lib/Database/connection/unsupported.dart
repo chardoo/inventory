@@ -5,9 +5,6 @@ Never _unsupported() {
       'No suitable database implementation was found on this platform.');
 }
 
-// Depending on the platform the app is compiled to, the following stubs will
-// be replaced with the methods in native.dart or web.dart
-
 DatabaseConnection connect() {
   _unsupported();
 }
