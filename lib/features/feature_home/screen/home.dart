@@ -23,7 +23,7 @@ class HomeScreen extends HookConsumerWidget {
           padding: const EdgeInsets.all(24.0),
           child: Column(
             children: [
-              const Align(child: Text('Tap on add button to add product')),
+              const Align(child: Text('Tap on add button to add random products')),
               Visibility(
                   visible: productsState is FetchingProducts,
                   child: const Align(child: CircularProgressIndicator())),
